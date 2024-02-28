@@ -1,0 +1,2 @@
+- fix sidebar not changing size properly
+- edit for mobile
