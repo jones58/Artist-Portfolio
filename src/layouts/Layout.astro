@@ -13,9 +13,9 @@ import Sidebar from "../components/sidebar.jsx";
     <title>Emily Man</title>
   </head>
   <body>
-    <Sidebar />
-    <div>
-      <slot />
+    <div class="flex flex-col flex-grow justify-between md:flex-row">
+      <Sidebar client:load class="min-w-[10vw]" />
+      <slot class="max-w-[90vw]" />
     </div>
   </body>
 </html>
